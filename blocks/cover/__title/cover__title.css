@@ -14,12 +14,12 @@
   .cover__title {
     max-width: 56%;
 }
-
+}
 @media screen and (max-width: 1023px) {
   .cover__title {
     max-width: 74%;
 }
-
+}
 @media screen and (max-width: 767px) {
   .cover__title {
     max-width: 80%;
