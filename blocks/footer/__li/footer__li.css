@@ -1,0 +1,10 @@
+.footer__li {
+  margin: 0 18px 0 0;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__li {
+    margin-bottom: 32px;
+  }
+}

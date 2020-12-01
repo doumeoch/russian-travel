@@ -1,0 +1,9 @@
+@import url(./__content/page__content.css);
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  min-width: 320px;
+  background-color: #2A2C2F;
+}
