@@ -1,30 +1,41 @@
-.header{
+@import url('__logo/header__logo.css');
+@import url('__lang/header__lang.css');
+@import url('__link/lang__link.css');
+@import url('./__link/__link-decoration/lang__link-decoration.css');
+
+.header { 
     display: flex;
+    margin: 0 auto;
+    margin-top: 28px;
+    align-items: flex-end;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
-    padding-top: 28px;
-    margin: 0 auto;
 }
 
+@media screen and (max-width: 1280px) {
+    .header {
+        max-width: 1184px;
+        margin: 28px 48px 0;
+    }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header{
-    max-width: 928px;
-  }
-}
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header{
-    max-width: 720px;
-  }
-}
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .header{
-    min-width: 390px;
-    min-height: 42px;
-    padding-top: 16px;
-    margin: 0 16px;
-  }
-}
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        margin: 28px 48px 0;
+    }
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        margin: 28px 24px 0;
+    }
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        margin: 16px 16px 0;
+    }
+

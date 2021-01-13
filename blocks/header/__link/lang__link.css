@@ -1,0 +1,15 @@
+@import url('./__link-decoration/lang__link-decoration.css');
+.lang__link {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  margin: 0 0 0 18px;
+}
+
+
+.lang__link:hover {
+	transition: .4s ease;
+	opacity: .4;
