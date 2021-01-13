@@ -22,13 +22,12 @@
 @media screen and (max-width: 1024px) {
     .intro {
         max-width: 690px;
-        margin-left: 50px;
     }
 
     @media screen and (max-width: 768px) {
         .intro {
             max-width: 720px;
-            margin-left: 50px;
+            margin: 90px 10px;
         }
 
 

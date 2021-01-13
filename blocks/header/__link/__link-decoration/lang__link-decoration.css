@@ -1,3 +1,11 @@
 .lang__link-decoration {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+    }

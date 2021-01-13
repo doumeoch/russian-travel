@@ -12,4 +12,13 @@
 
 .lang__link:hover {
 	transition: .4s ease;
-	opacity: .4;
+  opacity: .4;
+}
+
+
+  @media screen and (max-width: 320px) {
+    .lang__link {
+        max-width: 22px;
+      font-size: 18px;
+      line-height: 20px;
+    }
