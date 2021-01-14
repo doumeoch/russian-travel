@@ -16,9 +16,20 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        max-width: 928px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 340px 1fr;
         padding-bottom: 40px;
+        grid-column-gap: 100px;
+}
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .place {
+
+        padding-bottom: 40px;
+        grid-column-gap: 100px;
+}
 }
 
 @media screen and (max-width: 320px) {
@@ -26,4 +37,5 @@
             grid-template-columns: repeat(1, minmax(min-content, max-content)); 
             grid-template-rows: repeat(3, minmax(min-content, max-content));
                
+}
 }
