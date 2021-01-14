@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 320px) {
         .place {
-            grid-template-columns: repeat(1, minmax(min-content, max-content)); 
+            grid-template-columns: repeat(1, minmax(min-content, max-content));
             grid-template-rows: repeat(3, minmax(min-content, max-content));
                
 }
