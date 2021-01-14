@@ -1,5 +1,5 @@
-@import url('./__link-decoration/lang__link-decoration.css');
-.lang__link {
+@import url('./__link-decoration/header__lang__link-decoration.css');
+.header__lang__link {
   color: #FFFFFF;
   font-style: normal;
   font-weight: normal;
@@ -10,14 +10,14 @@
 }
 
 
-.lang__link:hover {
+.header__lang__link:hover {
 	transition: .4s ease;
   opacity: .4;
 }
 
 
   @media screen and (max-width: 320px) {
-    .lang__link {
+    .header__lang__link {
         max-width: 22px;
       font-size: 18px;
       line-height: 20px;
