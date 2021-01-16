@@ -2,13 +2,14 @@
     display: flex;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__services {
-        flex-direction: column;
+    flex-direction: column;
 }
 }

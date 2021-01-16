@@ -1,4 +1,5 @@
 .place__website {
-    align-self: flex-end;
-    margin: 0;
+  justify-self: start;
+  align-self: end;
+  margin: 0;
 }

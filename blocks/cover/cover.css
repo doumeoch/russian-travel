@@ -3,29 +3,24 @@
 @import url(./__subtitle/cover__subtitle.css);
 .cover {
     max-width: 1184px;
-    margin: 0 auto;
-    object-fit: cover;
-    margin-top: 60px;
+    background-size: cover;
+    margin: 92px 48px 0;
     background-image: url(./../../images/background.jpg);
+    background-position: center;
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .cover {
-        max-width: 1024px;
+        max-width: 100%;
+        margin: 92px 0 0;
 }
 }
 
-@media screen and (max-width: 1024px) {
-    .cover {
-        max-width: 1024px;
-}
-}
 
 
 @media screen and (max-width: 768px) {
     .cover {
-      min-height: 200px;
-      margin-top: 64px;
+      margin: 64px 0 0;
     }
   }

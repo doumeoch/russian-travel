@@ -1,13 +1,11 @@
 .cover__link {
     min-height: 640px;
     display: block;
-    background-size: cover;
     text-decoration: none;
-    background-color:rgba(0,0,0,.3);
+    background-color:rgba(42,44,47,.3);
 }
 
 
 .cover__link:hover {
     background-color: rgba(6, 6, 6, 0.8);
-    opacity: 0.8;
 }
