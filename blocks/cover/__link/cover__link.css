@@ -1,5 +1,5 @@
 .cover__link {
-    min-height: 640px;
+    min-height: 740px;
     display: block;
     text-decoration: none;
     background-color:rgba(42,44,47,.3);
@@ -7,5 +7,13 @@
 
 
 .cover__link:hover {
-    background-color: rgba(6, 6, 6, 0.8);
+    background-color: rgba(42, 44, 47, 0.8);
+}
+
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        min-height: 200px;
+       
+    }
 }

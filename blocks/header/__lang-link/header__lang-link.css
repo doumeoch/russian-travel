@@ -1,25 +1,22 @@
-@import url('./_decoration/header__lang-link_decoration.css');
 .header__lang-link {
-  color: #FFFFFF;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  text-decoration: none;
-  margin: 0 0 0 18px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    margin: 0 0 0 18px;
 }
-
 
 .header__lang-link:hover {
-	transition: .4s ease;
-  opacity: .4;
+    transition: 0.4s ease;
+    opacity: 0.4;
 }
 
-
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .header__lang-link {
         max-width: 22px;
-      font-size: 18px;
-      line-height: 20px;
+        font-size: 18px;
+        line-height: 20px;
     }
-  }
+}

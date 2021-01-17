@@ -1,10 +1,7 @@
-@import url('./__link/cover__link.css');
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
 .cover {
     max-width: 1184px;
     background-size: cover;
-    margin: 92px 48px 0;
+    margin: 92px 0 0;
     background-image: url(./../../images/background.jpg);
     background-position: center;
 }
@@ -13,14 +10,23 @@
 @media screen and (max-width: 1279px) {
     .cover {
         max-width: 100%;
-        margin: 92px 0 0;
 }
 }
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover {
       margin: 64px 0 0;
+      max-height: 480px;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 320px) {
+    .cover {
+      max-height: 200px;
     }
   }

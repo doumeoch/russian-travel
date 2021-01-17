@@ -1,7 +1,3 @@
-@import url('./__title/intro__title.css');
-@import url('./__text/intro__text.css');
-@import url('./__list-info/intro__list-info.css');
-@import url('./__span-stat/intro__span-stat.css');
 .intro {
     display: flex;
     box-sizing: border-box;
@@ -17,6 +13,7 @@
     .intro {
         margin-top: 80px;
         margin-left: 48px;
+        max-width: 690px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -27,7 +24,7 @@
         }
     }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
             .intro {
                 max-width: 288px;
                 margin-left: 16px;
