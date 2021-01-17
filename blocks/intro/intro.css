@@ -4,8 +4,8 @@
     color: #FFFFFF;
     justify-content: center;
     flex-direction: column;
-    margin: 90px 100px 50px;
-    width: 67.384%
+    margin: 92px 100px 50px;
+    max-width: 690px;
 }
 
 
@@ -17,7 +17,7 @@
         max-width: 690px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
         .intro {
             max-width: 720px;
             margin-top: 60px;
