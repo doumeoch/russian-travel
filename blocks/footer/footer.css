@@ -3,6 +3,7 @@
     max-width: 1184px;
     justify-content: space-between;
     margin: 92px 0 0;
+    padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1024px) {
