@@ -3,6 +3,7 @@
     display: block;
     text-decoration: none;
     background-color:rgba(42,44,47,.3);
+    max-height: 200px;
 }
 
 
